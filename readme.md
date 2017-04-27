@@ -19,28 +19,9 @@ $ npm install --save is-pm2
 ```js
 const isPm2 = require('is-pm2');
 
-isPm2('unicorns');
-//=> 'unicorns & rainbows & sindresorhus'
+isPm2();
+//=> 'true' if your code is running under [PM2](https://www.npmjs.com/package/pm2)
 ```
-
-## API
-
-### isPm2(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 ## License
 
