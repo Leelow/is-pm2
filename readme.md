@@ -1,5 +1,7 @@
 # is-pm2
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Leelow/is-pm2.svg)](https://greenkeeper.io/)
+
 [![NPM downloads][downloads-image]][downloads-url]
 [![Travis build status][travis-image]][travis-url]
 [![Appveyor build status][appveyor-image]][appveyor-url]
