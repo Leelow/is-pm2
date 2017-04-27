@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+yarn-error.log
+coverage
+
+.appveyor.yml
+.travis.yml
+.gitignore
+
+.idea
+is-pm2.iml

@@ -1,0 +1,29 @@
+{
+  "name": "is-pm2",
+  "version": "1.0.0",
+  "description": "Detect if your code is running under PM2.",
+  "license": "MIT",
+  "repository": "https://github.com/Leelow/is-pm2",
+  "author": {
+    "name": "Leo Lozach",
+    "email": "leo.lozach@gmail.com",
+    "url": "https://github.com/Leelow"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 100 test.js",
+    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover -x test.js ./node_modules/mocha/bin/_mocha -- --timeout 100 test.js"
+  },
+  "keywords": [
+    "pm2",
+    "process-manager"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "standard": "^10.0.2"
+  }
+}

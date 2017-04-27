@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "7"
+  - "6"
+  - "5"
+  - "4"
+os:
+  - linux
+  - osx
+install:
+  - yarn install
+after_script:
+  - 'cat coverage/lcov.info | ./node_modules/.bin/coveralls'
