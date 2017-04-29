@@ -6,7 +6,7 @@
 [![Coveralls coverage status][coveralls-image]][coveralls-url]
 [![JavaScript Style Guide][javascript-standard-image]][javascript-standard-url]
 
-> Detect if your code is running under PM2.
+> Detect if your code is running under [PM2](https://www.npmjs.com/package/pm2).
 
 ## Install
 
@@ -20,7 +20,7 @@ $ npm install --save is-pm2
 const isPm2 = require('is-pm2');
 
 isPm2();
-//=> 'true' if your code is running under [PM2](https://www.npmjs.com/package/pm2)
+//=> 'true' if your code is running under pm2
 ```
 
 ## License
