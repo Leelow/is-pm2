@@ -24,6 +24,6 @@
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^4.0.0",
-    "standard": "^10.0.2"
+    "standard": "^11.0.0"
   }
 }
