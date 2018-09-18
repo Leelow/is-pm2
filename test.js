@@ -25,6 +25,6 @@ describe('is-pm2', function () {
   })
 
   it('should return false is no pm2 env var exists', function () {
-    assert.equal(isPm2(), false)
+    assert.strictEqual(isPm2(), false)
   })
 })
